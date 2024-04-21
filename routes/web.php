@@ -15,7 +15,7 @@ use App\Http\Controllers\SubscriptionController;
 |
 */
 
-Route::view('/', 'welcome');
+Route::view('/', 'dogs.create');
 
 // Route::view('/create', 'create');
 Route::resource('dogs', DogController::class);
